@@ -1,0 +1,16 @@
+# 模型文件 (从 HuggingFace 下载, 不入库)
+bge-m3/
+pytorch_model.bin
+model.onnx_data
+*.crdownload
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# IDE
+.idea/
+
+# 运行产物
+eval_results.json
