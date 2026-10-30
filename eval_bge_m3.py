@@ -70,6 +70,8 @@ CORPUS = [
     {"id": "d27", "text": "Electric vehicles powered by lithium-ion batteries produce zero tailpipe emissions."},
     {"id": "d28", "text": "Renewable energy sources such as solar and wind power help mitigate climate change."},
     {"id": "d29", "text": "Python is a high-level programming language widely used in data science and web development."},
+    {"id":"d30","text":"中兴 5G 属于全球第一梯队，基站、核心网端到端能力成熟，Massive MIMO、节能、行业专网、5G-A 是强项；整体仅次于华为，强于爱立信、诺基亚，短板主要在高端自研芯片、海外市场受限"},
+    {"id": "d31","text": "中兴  zte chisi"}
 ]
 
 QUERIES = [
@@ -86,8 +88,9 @@ QUERIES = [
     {"id": "q10", "text": "如何保护网络信息安全？"},
 ]
 
+# qrels 是人工/规则标注的"这个查询应该返回哪些文档"
 QRELS = {
-    "q0": ["d0", "d20"],
+    "q0": ["d0", "d20","d30"],
     "q1": ["d2", "d21"],
     "q2": ["d3", "d22"],
     "q3": ["d5", "d24", "d6"],
